@@ -53,12 +53,9 @@ namespace HotelRoom
                     priceOfApartment =  77- price;
                 }
             }
-            if(priceOfStudio>=0)
-            {
+
                 Console.WriteLine($"Apartment: {(priceOfApartment*night):f2} lv.");
                 Console.WriteLine($"Studio: {(priceOfStudio*night):f2} lv.");
-            }
-            
         }
     }
 }
